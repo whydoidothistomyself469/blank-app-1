@@ -169,7 +169,7 @@ with right_column4:
        By 12/7/2024, I completed my first ever "website" with only 174 lines of code.
     """)
 with left_column4:
-    st_lottie(lottie_code6, height = 350, width = 1000, key = "waves")
+    st_lottie(lottie_code6, height = 350, key = "waves")
 
 with left_column4:
    st.write("---")
