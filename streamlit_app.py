@@ -108,7 +108,7 @@ with left_column2:
 #values
    st.write("---")
    st.header("Experiences & Values👤")
-   st.write(" The phrase "You reap what you sow." can apply to values and how they are gained from experience.")
+   st.write("The phrase "You reap what you sow." can apply to values and how they are gained from experience.")
    st.write("From my experiences so far, I learnt many values but the most important to me were resilience, responsibility and creativity.")
    st.write("I learned these values from the many competitions I participated in, especially in the IDE 2023 Competition. The Robotics CCA in my school, being a new CCA, was underfunded and we were using old models such as NXT. We even faced problems due to how outdated the models were such as the robot not being able to move straight")
    st.write("However, as the team's leader and coder, I worked tirelessly even staying back in school to fix the problem. Yet, I was unable to fix it.")
