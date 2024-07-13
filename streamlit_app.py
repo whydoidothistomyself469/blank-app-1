@@ -18,7 +18,7 @@ left_column, right_column = st.columns(2)
 with left_column:
     st.write("---")
     st.header("About Me! 🤖")
-    st.write("Born in 2008. I am a student from Compassvale Secondary School. A hobby of mine is to explore new places, tinker around with digital circuits and creating things in python. ")
+    st.write("Born in 2008. A hobby of mine is to explore new places, tinker around with digital circuits and creating things in python. ")
     st.write("As a person who loves to tackle problems, no matter the difficulty, this has tremendously built up my critical thinking skills. These skills are crucial in ICT, where solving problems, whether it’s debugging a program or using ICT to address real-world issues, is common.")
     st.write("The first instance where my interest in ICT sparked was in Primary School. Seeing the IT support team coming in the computer lab to help us fix issues that I never understood and yet, they were able to fix them in a couple of minutes. This left a great impression on me. The biggest question in my head was always “How?”.")
     st.write("I was curious how they knew what the problem was, how did they know how to fix it, how did an issue like this occurred in the first place. But I was hindered as my family did not own a laptop at the time.")
@@ -108,7 +108,7 @@ with left_column2:
 #values
    st.write("---")
    st.header("Experiences & Values👤")
-   st.write("Values are reaped from experience.")
+   st.write(" The phrase "You reap what you sow." can apply to values and how they are gained from experience.")
    st.write("From my experiences so far, I learnt many values but the most important to me were resilience, responsibility and creativity.")
    st.write("I learned these values from the many competitions I participated in, especially in the IDE 2023 Competition. The Robotics CCA in my school, being a new CCA, was underfunded and we were using old models such as NXT. We even faced problems due to how outdated the models were such as the robot not being able to move straight")
    st.write("However, as the team's leader and coder, I worked tirelessly even staying back in school to fix the problem. Yet, I was unable to fix it.")
