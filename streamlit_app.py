@@ -18,7 +18,7 @@ left_column, right_column = st.columns(2)
 with left_column:
     st.header("About Me! 🤖")
     st.write("Born in 2008. I am a student from Compassvale Secondary School. A hobby of mine is to explore new places, tinker around with digital circuits and creating things in python. ")
-    st.write("As a person who loves to solve problems, no matter the difficulty, this has tremendously built up my critical thinking skills. These skills are crucial in ICT, where solving problems, whether it’s debugging a program or using ICT to address real-world issues, is common.")
+    st.write("As a person who loves to tackle problems, no matter the difficulty, this has tremendously built up my critical thinking skills. These skills are crucial in ICT, where solving problems, whether it’s debugging a program or using ICT to address real-world issues, is common.")
     st.write("The first instance where my interest in ICT sparked was in Primary School. Seeing the IT support team coming in the computer lab to help us fix issues that I never understood and yet, they were able to fix them in a couple of minutes. This left a great impression on me. The biggest question in my head was always “How?”.")
     st.write("I was curious how they knew what the problem was, how did they know how to fix it, how did an issue like this occurred in the first place. But I was hindered as my family did not own a laptop at the time.")
     st.write("When I was in Secondary 2, I received the PLD in the form of a laptop. This re-ignited my interest in ICT. As the deeper I explored, the more I realized the true extent to which ICT is used in every aspect of our lives, the more amazed I became. From softwares to telecommunications. I knew already that I wanted to be apart of it in some way.")
@@ -98,12 +98,14 @@ left_column2, right_column2 = st.columns(2)
 
 #Why I chose TP
 with left_column2:
+   st.write("---")
    st.title("Why I chose TP🏫")
    st.write("From the many times I have visited TP, I found myself in awe with not only the environment but the facilities as well. I find TP’s environment to be vibrant as unique as each sector is completely different from each other, all integrated with technology. ")
    st.write("TP also has a myriad of facilities from Temasek Launchpad which weekly trainings are held to use the more heavy-duty equipment such as the 3D printer to automated shops.")
    st.write("Furthermore, I found the TPFUN program to be very interesting, particularly the modules such as Current Issues & Critical Thinking. What excites me the most is the chance to engage in collaborative discussions and objectively evaluate these issues by utilizing digital literacy skills and critical thinking strategies which I cannot find in other Polytechnics near me.")
 
 #values
+   st.write("---")
    st.header("Experiences & Values👤")
    st.write("Values are reaped from experience.")
    st.write("From my experiences so far, I learnt many values but the most important to me were resilience, responsibility and creativity.")
@@ -119,8 +121,9 @@ with right_column2:
 #Achievements
 
 
-left_column3, right_coloumn3 = st.columns(2)
+left_column3, right_coloumn3 = st.columns((2, 3))
 with left_column3:
+    st.write("---")
     st.title("Achievements🏅")
     st.write(
     """
@@ -129,7 +132,7 @@ with left_column3:
     - EAGLES Edusave Award (Sec 3, 2023)
     - Top In Electronics (Sec 3, 2023)
     """)
-
+ 
     st.title("Self Enchrichment")
     st.write(
     """
@@ -140,8 +143,9 @@ with left_column3:
     """)
 
 with right_coloumn3:
-        st.title("Participations 🖐")
-        st.write(
+    st.write("---")
+    st.title("Participations 🖐")
+    st.write(
     """
     - 3 Years Worth Of Robotics Competitions 
     (IDE 2021, IDE 2022, NRC 2022, IDE 2023)
@@ -151,8 +155,9 @@ with right_coloumn3:
 with right_coloumn3:
     st_lottie(lottie_code5, height = 400, key = "award")
 
-left_column4, right_column4 = st.columns((2))
+left_column4, right_column4 = st.columns((3, 2))
 with right_column4:
+    st.write("---")
     st.title("One thing I made using ICT")
     st.write(
        """
@@ -163,9 +168,10 @@ with right_column4:
        By 12/7/2024, I completed my first ever "website" with only 174 lines of code.
     """)
 with left_column4:
-    st_lottie(lottie_code6, height = 350, key = "waves")
+    st_lottie(lottie_code6, height = 350, width = 1000, key = "waves")
 
 with left_column4:
+   st.write("---")
    st.title("Contact Me!📲🤙")
    st.subheader("Email📧: hodennis004@gmail.com")
    st.subheader("Phone Number☎: 9625 6993")
