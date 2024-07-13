@@ -16,6 +16,7 @@ st.title("This is my portfolio👾👾")
 #About Me
 left_column, right_column = st.columns(2)
 with left_column:
+    st.write("---")
     st.header("About Me! 🤖")
     st.write("Born in 2008. I am a student from Compassvale Secondary School. A hobby of mine is to explore new places, tinker around with digital circuits and creating things in python. ")
     st.write("As a person who loves to tackle problems, no matter the difficulty, this has tremendously built up my critical thinking skills. These skills are crucial in ICT, where solving problems, whether it’s debugging a program or using ICT to address real-world issues, is common.")
