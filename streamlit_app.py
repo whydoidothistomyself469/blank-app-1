@@ -7,7 +7,7 @@ import streamlit as st
 
 st.set_page_config(page_title="DN's Portfolio", page_icon="👋", layout= "wide")
 
-left_column, right_column = st.columns(2)
+left_column, right_column = st.columns((1, 2))
 
 #HEADERS
 st.subheader("Hello, I am Dennis👋")
