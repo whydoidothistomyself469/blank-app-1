@@ -152,6 +152,7 @@ with right_coloumn3:
     (IDE 2021, IDE 2022, NRC 2022, IDE 2023)
     - Participated in Math Kangaroo
     - Participated in Stem-X
+    - S1-02 Coding Lab Python Beginners Camp
     """)
 with right_coloumn3:
     st_lottie(lottie_code5, height = 400, key = "award")
