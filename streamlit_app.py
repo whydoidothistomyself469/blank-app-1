@@ -5,7 +5,11 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 import streamlit as st
 
-st.set_page_config(page_title="DN's Portfolio", page_icon="👋", layout= "wide")
+st.set_page_config(
+page_title="DN's Portfolio", 
+page_icon="👋", 
+layout= "wide"
+)
 
 left_column, right_column = st.columns((1, 2))
 
