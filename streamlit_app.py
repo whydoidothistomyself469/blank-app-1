@@ -97,7 +97,7 @@ def tp():
     with left_column2:
        st.write("---")
        st.title("Why I chose TP🏫")
-       st.write("From the many times I have visited TP, I found myself in awe with not only the environment but the facilities as well. I find TP’s environment to be vibrant as unique as each sector is completely different from each other, all integrated with technology. ")
+       st.write("From the many times I have visited TP, I found myself in awe with not only the environment but the facilities as well. I find TP’s environment to be vibrant and unique as each sector is completely different from each other, all integrated with technology. ")
        st.write("TP also has a myriad of facilities from Temasek Launchpad which weekly trainings are held to use the more heavy-duty equipment such as the 3D printer to automated shops.")
        st.write("Furthermore, I found the TPFUN program to be very interesting, particularly the modules such as Current Issues & Critical Thinking. What excites me the most is the chance to engage in collaborative discussions and objectively evaluate these issues by utilizing digital literacy skills and critical thinking strategies which I cannot find in other Polytechnics near me.")
 
