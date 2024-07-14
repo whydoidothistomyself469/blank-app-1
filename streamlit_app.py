@@ -139,6 +139,7 @@ def achievements():
         - Sec 2 Cyberwellness Quest
         - Applied Learning Module: Outsmart The Hacker (At Republic Poly)
         - Industry and Skills Exposure Day
+        - S1-02 Python Code Camp For Beginners (CodingLab)
         """)
 
     with right_column3:
@@ -163,7 +164,7 @@ def projects():
            """
            One thing I made using ICT..
            Is this! I made it from scratch using Python!
-           I started on 11/7/2024, where I downloaded and wathced tutorials on how to create a website.
+           I started on 11/7/2024, where I downloaded and watched tutorials on how to create a website.
            It took a while but I eventually got the hang of it.
            By 12/7/2024, I completed my first ever "website" with only 240 lines of code.
         """)
