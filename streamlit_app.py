@@ -214,10 +214,15 @@ class MultiApp:
         with st.sidebar:        
             app = option_menu(
                 menu_title="Navigation",
+                menu_icon='sign-turn-slight-right-fill',
+
                 options=['About Me','Why I Chose TP', 'Experience And Values', 'Achievements','Project','Contacts'],
-                icons=['person-circle','house-fill', 'filter-circle', 'trophy-fill','chat-fill','info-circle-fill'],
-                menu_icon='chat-text-fill',
-                default_index=1,
+
+                icons=['person-circle','house-fill', 'filter-circle', 'trophy-fill','person-workspace','info-circle-fill'],
+
+                default_index=0,
+
+
                 styles={
                     "container": {"padding": "5!important","background-color":'black'},
         "icon": {"color": "white", "font-size": "23px"}, 
