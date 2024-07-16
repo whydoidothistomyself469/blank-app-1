@@ -100,7 +100,7 @@ def tp():
        st.write("From the many times I have visited TP, I found myself in awe with not only the environment but the facilities as well. I find TP’s environment to be vibrant and unique as each sector is completely different from each other, all integrated with technology. ")
        st.write("TP also has a myriad of facilities from Temasek Launchpad which weekly trainings are held to use the more heavy-duty equipment such as the 3D printer to automated shops at Avenue One.")
        st.write("Furthermore, I found the TPFUN program to be very interesting, particularly the modules such as Current Issues & Critical Thinking. What excites me the most is the chance to engage in collaborative discussions and objectively evaluate these issues by utilizing digital literacy skills and critical thinking strategies which I cannot find in other Polytechnics near me.")
-
+       st.write("Lastly I find TP's CCAs and clubs, especially the informatics & IT Study Club to be very interesting.")
 
     with right_column2:
         st_lottie(lottie_code3, height = 400, key = "man")
@@ -168,8 +168,8 @@ def projects():
            I started on 11/7/2024, where I downloaded the python packages I needed and watched tutorials on how to create a website.
            It took a while but I eventually got the hang of it.
            By 12/7/2024, I completed my first ever "website" with only 240 lines of code. (You can see the code through my Github Profile)
-           I have made other projects such as a Rock, Papers, Scissors, Snake Game, Pascals Triangle Calculator but this is by far the most complex and difficult challenge I have set and done myself.
         """)
+        st.write("I have made other projects such as a Rock, Papers, Scissors, Snake Game, Pascals Triangle Calculator but this is by far the most complex and difficult challenge I have set and done myself.")
     with left_column4:
         st_lottie(lottie_code6, height = 350, key = "waves")
 
