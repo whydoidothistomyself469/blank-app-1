@@ -140,6 +140,7 @@ def achievements():
         - Applied Learning Module: Outsmart The Hacker (At Republic Poly)
         - Industry and Skills Exposure Day
         - S1-02 Python Code Camp For Beginners (CodingLab)
+        - Volunteered at Bethesda Care Old Folk's Home
         """)
 
     with right_column3:
@@ -166,7 +167,7 @@ def projects():
            Is this! I made it from scratch using Python!
            I started on 11/7/2024, where I downloaded the python packages I needed and watched tutorials on how to create a website.
            It took a while but I eventually got the hang of it.
-           By 12/7/2024, I completed my first ever "website" with only 240 lines of code.
+           By 12/7/2024, I completed my first ever "website" with only 240 lines of code. (You can see the code through my Github Profile)
            I have made other projects such as a Rock, Papers, Scissors, Snake Game, Pascals Triangle Calculator but this is by far the most complex and difficult challenge I have set and done myself.
         """)
     with left_column4:
