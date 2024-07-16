@@ -205,7 +205,7 @@ st.markdown(
     """, unsafe_allow_html=True)
 print(os.getenv('analytics_tag'))
 
-
+#Navigation Bar omg
 class MultiApp:
 
     def __init__(self):
