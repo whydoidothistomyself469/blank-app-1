@@ -61,6 +61,12 @@ def load_lottieurl8(url: str):
         return None
     return r.json()
 
+def load_lottieurl9(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
 #Asset Loading
 lottie_code = load_lottieurl("https://lottie.host/955f90b2-a0a2-4647-9a7c-a12e1f04c6f9/7dOqAtKMxJ.json")
 lottie_code2 = load_lottieurl1("https://lottie.host/a26b6b4e-7c3a-41ba-8ec3-0d54ae90070a/v4N8U37Cyx.json")
@@ -69,6 +75,7 @@ lottie_code4 = load_lottieurl3("https://lottie.host/24d25b16-55c9-4f45-906a-1ff1
 lottie_code5 = load_lottieurl4("https://lottie.host/dbdc5b63-ea04-4ae5-9707-7758b65063f0/nJoSRHvluR.json")
 lottie_code6 = load_lottieurl5("https://lottie.host/ab9a7b77-b0af-408b-9bf9-09bd2f0cdd41/oPztphH0VT.json")
 lottie_code7 = load_lottieurl6("https://lottie.host/8fc9d936-c7f8-4a21-9e60-fa74fa5b3d84/MsZcCAmLd8.json")
+lottie_code9 = load_lottieurl9("https://lottie.host/f7438fcf-55ae-4228-82c2-f6b6fe81c185/ClwXahRlZ7.json")
 
 st.set_page_config(
         page_title="Dennis's Portfolio👋",
@@ -169,10 +176,11 @@ def projects():
            It took a while but I eventually got the hang of it.
            By 12/7/2024, I completed my first ever "website" with only 240 lines of code. (You can see the code through my Github Profile)
         """)
-        st.write("I have made other projects such as a Rock, Papers, Scissors, Snake Game, Pascals Triangle Calculator but this is by far the most complex and difficult challenge I have set and done myself.")
+        st.write("I made this as not only did I want to challenge myself, I wanted prove to you that I am truly intrested in this course, I am passionate about coding and I am willing to always learn new things")
+        st.write("I have made other projects such as a Rock, Papers, Pascals Triangle Calculator, a calculator along with my other Robotics Projects such as line tracing but this is by far the most difficult challenge I have set and done myself.")
     with left_column4:
-        st_lottie(lottie_code6, height = 350, key = "waves")
-
+        st_lottie(lottie_code6, height = 400, key = "waves")
+        st_lottie(lottie_code9, height = 400, key ="biking")
 def contacts():
     left_column4, right_column4 = st.columns((3, 2))
     with left_column4:
