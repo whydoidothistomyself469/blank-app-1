@@ -231,7 +231,7 @@ class MultiApp:
         "nav-link-selected": {"background-color": "#02ab21"},} #this took too long to do
                 
                 )
-
+# Page loader
         if app == 'About Me':
             print(home())
         if app == "Why I Chose TP":
